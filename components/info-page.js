@@ -1,3 +1,5 @@
+import SearchBox from './search-box';
+
 export default function InfoPage() {
   return (
     <div className="block mt-4 relative w-full flex flex-wrap items-center justify-between py-3 bg-white">
@@ -11,8 +13,13 @@ export default function InfoPage() {
           </div>
         </div>
         <div className="flex items-center relative">
-          <div className="text-xl text-rose-500 mx-4">Search</div>
-          <div className="text-xl text-rose-500 mx-4">Add</div>
+          <SearchBox placeHolder="Cari driver"></SearchBox>
+          <button
+            type="button"
+            class="inline-block mx-4 px-6 py-2.5 bg-rose-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-rose-500 focus:bg-rose-500 focus:outline-none focus:ring-0 active:bg-rose-500 "
+          >
+            Tambah Driver +
+          </button>
         </div>
       </div>
     </div>
