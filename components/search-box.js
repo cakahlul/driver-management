@@ -15,7 +15,7 @@ export default function SearchBox({ placeHolder }) {
         name="search"
         className="py-2 text-sm border border-solid border-gray-300 bg-white rounded pl-10 focus:text-gray-700 focus:bg-white focus:border-rose-500 focus:outline-none"
         placeholder={placeHolder}
-        autocomplete="off"
+        autoComplete="off"
       />
     </div>
   );

@@ -6,7 +6,7 @@ export default function Layout({ children }) {
       <Head>
         <title>Shipper | Driver Management</title>
       </Head>
-      <main className="bg-gray-100">{children}</main>
+      <main>{children}</main>
     </>
   );
 }

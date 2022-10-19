@@ -16,7 +16,7 @@ export default function InfoPage() {
           <SearchBox placeHolder="Cari driver"></SearchBox>
           <button
             type="button"
-            class="inline-block mx-4 px-6 py-2.5 bg-rose-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-rose-500 focus:bg-rose-500 focus:outline-none focus:ring-0 active:bg-rose-500 "
+            className="inline-block mx-4 px-6 py-2.5 bg-rose-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-rose-500 focus:bg-rose-500 focus:outline-none focus:ring-0 active:bg-rose-500 "
           >
             Tambah Driver +
           </button>

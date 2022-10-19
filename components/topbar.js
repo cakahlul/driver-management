@@ -6,7 +6,7 @@ import photoProfile from '../public/images/user.png';
 
 export default function TopBar() {
   return (
-    <nav className="relative w-full flex flex-wrap items-center justify-between py-3 bg-white z-0">
+    <nav className="relative w-full flex flex-wrap items-center justify-between py-3 bg-white">
       <div className="container-fluid w-full flex justify-end px-6">
         <div className="flex items-center relative ">
           <div className="text-base my-4">Hello,</div>
